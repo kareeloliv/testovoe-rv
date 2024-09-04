@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Главная</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/icon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icon.svg">
+</head>
+
+<body>
+	<header class="header">
+    <div class="header__main header-main">
+        <div class="header-main__container">
+            <div class="header-main__left">
+                <a href="#" class="header-main__logo"><picture>
+<source srcset="./img/logo.webp 1x" type="image/webp">
+<source srcset="./img/logo.png 1x" type="image/png">
+<img src="./img/logo.png" alt="">
+</picture></a>
+                <p class="header-main__work-time">Ежедневно с 9:00 до 21:00</p>
+            </div>
+
+            <div class="header-main__search">
+                <svg class="icon icon--search">
+                    <use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+                </svg>
+                <input type="search" class="" placeholder="Поиск по сайту">
+            </div>
+
+            <a href="#" class="header-main__calculator">
+                <svg class="icon icon--calculator">
+                    <use href="./img/svgsprite/sprite.symbol.svg#calculator"></use>
+                </svg>
+                <span class="header-main__calculator-text">Калькулятор</span>
+            </a>
+
+            <div class="burger__cnt">
+                <div class="burger"><span></span></div>
+            </div>
+
+            <div class="header-main__socials">
+                <a href="#" class="header-main__social">
+                    <svg class="icon icon--ws">
+                        <use href="./img/svgsprite/sprite.symbol.svg#ws"></use>
+                    </svg>
+                </a>
+                <a href="#" class="header-main__social">
+                    <svg class="icon icon--tg">
+                        <use href="./img/svgsprite/sprite.symbol.svg#tg"></use>
+                    </svg>
+                </a>
+                <a href="#" class="header-main__social">
+                    <svg class="icon icon--vb">
+                        <use href="./img/svgsprite/sprite.symbol.svg#vb"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="header-main__info">
+                <a class="header-main__tel" href="tel:+78129268833">+7 (812) 926-88-33</a>
+                <a class="header-main__mail" href="mailto:info@eco-lom.ru">info@eco-lom.ru</a>
+            </div>
+            <a class="header-main__button button button_line" href="#">Перезвоните мне</a>
+        </div>
+    </div>
+    <div class="header__menu header-menu">
+        <div class="header-menu__container">
+
+            <nav class="header-menu__nav">
+                <ul class="header-menu__list">
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">Лотерея</a></li>
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">Металлолом</a></li>
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">Услуги</a>
+                        <ul class="header-menu__submenu">
+                            <li class="header-menu__subitem"><a href="#" class="header-menu__sublink">Прием чёрного лома</a></li>
+                            <li class="header-menu__subitem"><a href="#" class="header-menu__sublink">Прием цветного лома</a></li>
+                            <li class="header-menu__subitem"><a href="#" class="header-menu__sublink">Демонтаж лома</a></li>
+                            <li class="header-menu__subitem"><a href="#" class="header-menu__sublink">Вывоз лома</a></li>
+                            <li class="header-menu__subitem"><a href="#" class="header-menu__sublink">Химический анализ металлов</a></li>
+                            <li class="header-menu__subitem"><a href="#" class="header-menu__sublink">Приём и отгрузка жд контейнеров</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">Цены</a></li>
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">Пункты приёма</a></li>
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">О компании</a></li>
+                    <li class="header-menu__item"><a href="#" class="header-menu__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </div>
+</header>
+
+	<main class="page page_main">
+
+		<section class="page_main__first-screen first-screen">
+			<div class="first-screen__container">
+				<div class="first-screen__info">
+					<div class="first-screen__title">
+						Приём лома чёрных
+						и цветных металлов
+						<span>в Санкт-Петербурге</span>
+					</div>
+					<div class="first-screen__buttons">
+						<a class="first-screen__button button button_line" href="#">Цены на сегодня</a>
+						<a class="first-screen__button button button_line" href="#">Как сдать металл</a>
+						<a class="first-screen__button button button_line" href="#">Отзывы</a>
+						<a class="first-screen__button button button_line" href="#">Акции</a>
+					</div>
+					<a href="#" class="first-screen__main-button button">Оставить заявку</a>
+
+
+
+					<a href="#" class="first-screen__play text-circle">
+						<div class="text-circle__center">
+							<svg class="icon icon--play">
+								<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
+							</svg>
+						</div>
+
+						<svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' class="text-circle__svg" aria-labelledby="link1-title link1-desc">
+							<path id="link-circle" class="text-circle__path" d="M 20, 100 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" stroke="none" fill="none" />
+							<text class="text-circle__text">
+								<textPath href="#link-circle" stroke="none">
+									&nbsp Видео о компании «ЭКОЛОМ» &nbsp Видео о компании «ЭКОЛОМ»
+								</textPath>
+							</text>
+						</svg>
+					</a>
+
+				</div>
+
+				<div class="first-screen__image-decor">
+					<div class="first-screen__decor"></div>
+					<div class="first-screen__image">
+						<picture>
+<source srcset="./img/picture.webp 1x" type="image/webp">
+<source srcset="./img/picture.png 1x" type="image/png">
+<img src="./img/picture.png" alt="">
+</picture>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="page_main__advantages advantages">
+			<div class="advantages__container">
+				<div class="advantages__item advantages-item">
+					<div class="advantages-item__top">
+						<div class="advantages-item__icon">
+							<svg class="icon icon--pay">
+								<use href="./img/svgsprite/sprite.symbol.svg#pay"></use>
+							</svg>
+						</div>
+						<div class="advantages-item__title">Моментальный расчёт</div>
+					</div>
+					<div class="advantages-item__text">Мгновенная оплата по безналичному
+						расчету на месте приёма</div>
+				</div>
+				<div class="advantages__item advantages-item">
+					<div class="advantages-item__top">
+						<div class="advantages-item__icon">
+							<svg class="icon icon--trending-up">
+								<use href="./img/svgsprite/sprite.symbol.svg#trending-up"></use>
+							</svg>
+						</div>
+						<div class="advantages-item__title">Высокая цена закупки</div>
+					</div>
+					<div class="advantages-item__text">Максимальная высокая цена закупки лома
+						на рынке Санкт-Петербурга</div>
+				</div>
+				<div class="advantages__item advantages-item">
+					<div class="advantages-item__top">
+						<div class="advantages-item__icon">
+							<svg class="icon icon--truck">
+								<use href="./img/svgsprite/sprite.symbol.svg#truck"></use>
+							</svg>
+						</div>
+						<div class="advantages-item__title">Собственный автопарк</div>
+					</div>
+					<div class="advantages-item__text">Свой автопарк, в составе которого
+						более 30 единиц спецтехники</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="page_main__about about">
+			<div class="about__container">
+				<div class="about__content">
+					<div class="about__title">Комплексный
+						сервис</div>
+					<div class="about__text">
+						<p>Компания «ЭКОЛОМ» — ваш надежный партнер по переработке металлолома
+							в Санкт-Петербурге. Мы стремимся к экологической ответственности, предлагая выгодные условия и профессиональный сервис на всех этапах работы. Гарантируем честность, прозрачность и высокие цены на металлолом!</p>
+						<p>Помимо переработки лома, наша компания предлагает комплексные услуги, включая оценку состава металлов, вывоз и демонтаж. Мы осуществляем демонтаж любой сложности –
+							от кораблей и зданий до железнодорожных составов и путей. Наши опытные специалисты
+							и собственный автопарк обеспечивают оперативность и надежность в выполнении задач.</p>
+						<p>Вместе с компанией «ЭКОЛОМ» вы получаете не только надежного партнера по переработке металлолома, но и комплексный сервис высочайшего уровня. Мы с удовольствием берем
+							на себя все этапы работы — от приёмки до вывоза и демонтажа.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+
+	<footer class="footer">
+    <div class="footer__container">
+
+    </div>
+</footer>
+
+	<script src="./js/index.min.js"></script>
+</body>
+
+</html>
